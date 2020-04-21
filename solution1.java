@@ -39,6 +39,8 @@ public class solution1
         driver.get("https://demos.devexpress.com/ASPxNavigationAndLayoutDemos/TabControl/TabScrolling.aspx");
         navigateLeft(driver);
         navigateRight(driver);
+        
+        System.out.println "Testing Github";
 
     }
     private static void navigateLeft(WebDriver driver)throws InterruptedException {
